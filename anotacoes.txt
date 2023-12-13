@@ -1,0 +1,53 @@
+npm run server
+
+ng serve
+
+
+Estimator
+
+Demanda
+	id
+	nome
+	descricao
+	cdt
+	greg
+	sm
+	simulacao
+	tipo_demanda(REGULATORIA, APRIMORAMENTO. MELHORIAS)
+caderno
+	id
+	nome
+	url
+caderno_versao
+	id
+	nome
+	url
+
+demanda_caderno
+	id
+	caderno_id
+	demanda_id
+
+estimativa
+	id
+	caderno_demanda_id
+	caderno_versao_id
+
+estimativa_item
+	id
+	estimativa_id
+	acron
+	acron_dim
+	acron_descr
+	mod
+	mod_orig
+	nat
+	io
+	calc_ord
+	nivel
+	manutencao(INCLUIR.ALTERAR,EXCLUIR)
+	responsavel_analise
+	responsavel_desenv
+	
+	
+	

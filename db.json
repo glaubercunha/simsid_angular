@@ -1,0 +1,48 @@
+{
+    "demanda": [
+      {
+        "id": 1,
+        "nome": "Proj Cliq14",
+        "descricao": "descrição da demanda",
+        "cdt": "CDT-12345",
+        "greg": "GREG-12345",
+        "sm": "CLIQ-12345",
+        "simulacao": "CDT-123456",
+        "tipo_demanda": "REGULATORIA"
+    }
+    ],
+    "estimativa_item": [
+      {
+        "id": 1,
+        "caderno": "RRV",
+        "demanda": "Proj Cliq14",
+        "acron": "ACRON_XPTO",
+        "acron_dim": "p,t,l,m",
+        "acron_descr": "descrição do acron xyz",
+        "mod": "ACE",
+        "mod_orig": "",
+        "nat": "I",
+        "io": "I",
+        "calc_ord": "",
+        "manutencao": "INCLUIR",
+        "responsavel_analise": "Valter",
+        "responsavel_desenv": "Marcelo"
+      },
+      {
+        "id": 2,
+        "caderno": "ENR",
+        "demanda": "Proj Cliq14",
+        "acron": "ACRON_XYZ",
+        "acron_dim": "p,t,l,m,h",
+        "acron_descr": "descrição do acron xyz",
+        "mod": "ACE",
+        "mod_orig": "",
+        "nat": "O",
+        "io": "O",
+        "calc_ord": "1",
+        "manutencao": "INCLUIR",
+        "responsavel_analise": "Rui",
+        "responsavel_desenv": "Kelly"
+      }
+    ]
+  }
